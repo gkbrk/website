@@ -1,0 +1,4 @@
+session/
+*.pyc
+db.sqlite
+server.log
