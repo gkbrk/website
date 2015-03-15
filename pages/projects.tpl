@@ -12,7 +12,10 @@
 
 <h1 class="text-center">Here are some of my projects</h1>
 <div class="row">
+    %project("gkbrk.com", "This website itself", https://github.com/gkbrk/website)
     %project("RustOre", "A Minecraft classic server written in Rust. It is still a Work In Progress.", "https://github.com/gkbrk/RustOre-Classic")
-    %project("IrcLib", "An event-based C# library that makes coding IRC bots easy.", "https://github.com/gkbrk/IrcLib")
     %project("AsteroidRacer", "A dodging game written in Python. It can be used as an example for the Pyglet library.", "https://github.com/gkbrk/AsteroidRacer")
+</div>
+<div class="row">
+    %project("IrcLib", "An event-based C# library that makes coding IRC bots easy.", "https://github.com/gkbrk/IrcLib")
 </div>
