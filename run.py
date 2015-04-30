@@ -44,4 +44,7 @@ app = beaker.middleware.SessionMiddleware(app, {
     "session.data_dir": "./session"
 })
 
-bottle.run(app=app, port=80, host="0.0.0.0", server="paste", reloader=True, debug=True)
+application = app
+
+if __name__ == "__main__":
+    bottle.run(app=app, port=1233, server="paste", reloader=True, debug=True)
