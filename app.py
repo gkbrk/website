@@ -24,7 +24,6 @@ def cv():
 
 @bottle.error(404)
 def notfound(error):
-    bottle.response.status_code = 404
     with open("404.tpl") as template:
         return bottle.template(template.read())
 
