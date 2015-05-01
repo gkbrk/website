@@ -12,6 +12,11 @@ def cv():
     with open("cv.tpl") as template:
         return bottle.template(template.read())
 
+@bottle.get("/projects")
+def cv():
+    with open("projects.tpl") as template:
+        return bottle.template(template.read())
+
 @bottle.get("/static/<filename:path>")
 def static(filename):
     return bottle.static_file(filename, root="static/")
