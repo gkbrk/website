@@ -1,4 +1,5 @@
 import bottle
+import re
 import bottlog
 
 class minify:
