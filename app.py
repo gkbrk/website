@@ -1,8 +1,16 @@
 import bottle
 import bottlog
 
+class minify:
+    def __init__(self, f):
+        self.f = f
+
+    def __call__(self, *args, **kwargs):
+        return re.sub(">\s+<", "><", self.f(args, kwargs))
+
 @bottle.get("/")
 @bottle.get("/index")
+@minify
 def root_path():
     with open("index.tpl") as template:
         return bottle.template(template.read())
