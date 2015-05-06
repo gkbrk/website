@@ -7,7 +7,7 @@ class minify:
         self.f = f
 
     def __call__(self, *args, **kwargs):
-        return re.sub(">\s+<", "><", self.f(args, kwargs))
+        return re.sub(">\s+<", "><", self.f(*args, **kwargs))
 
 @bottle.get("/")
 @bottle.get("/index")
