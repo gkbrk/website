@@ -17,16 +17,19 @@ def root_path():
         return bottle.template(template.read())
 
 @bottle.get("/cv")
+@minify
 def cv():
     with open("cv.tpl") as template:
         return bottle.template(template.read())
 
 @bottle.get("/projects")
+@minify
 def cv():
     with open("projects.tpl") as template:
         return bottle.template(template.read())
 
 @bottle.get("/contact")
+@minify
 def cv():
     with open("contact.tpl") as template:
         return bottle.template(template.read())
