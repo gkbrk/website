@@ -17,6 +17,7 @@
     %project("AsteroidRacer", "A dodging game written in Python. It can be used as an example for the Pyglet library.", "https://github.com/gkbrk/AsteroidRacer")
 </div>
 <div class="row">
-    %project("SimpleIRC", "A Python library that makes it really simple to make IRC bots.", "https://github.com/gkbrk/SimpleIRC")
+    %project("JustIRC", "A Python library that makes it really simple to make IRC bots.", "https://github.com/gkbrk/SimpleIRC")
+    %project("SirLogsalot", "A simple IRC bot written in C.", "https://github.com/gkbrk/Sirlogsalot")
     %project("IrcLib", "An event-based C# library that makes coding IRC bots easy.", "https://github.com/gkbrk/IrcLib")
 </div>
