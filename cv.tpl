@@ -47,6 +47,15 @@
 </ul>
 
 <br/><br/>
+<h2>SAT Score</h2>
+<ul>
+    <li><p><strong>Critical Reading</strong> - 570</p></li>
+    <li><p><strong>Maths</strong> - 640</p></li>
+    <li><p><strong>Writing</strong> - 490</p></li>
+    <li><p><strong>Total Score</strong> - 1700</p></li>
+</ul>
+
+<br/><br/>
 <h2>Language Certificates</h2>
 <div class="row">
     %block("Cambridge KET Exam", "[English] Pass with Merit", link_name="View certificate", include_button=False)
