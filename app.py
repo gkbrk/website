@@ -13,7 +13,7 @@ class minify:
 @bottle.get("/index")
 @minify
 def root_path():
-    with open("index.tpl") as template:
+    with open("index.tpl", encoding="utf-8") as template:
         return bottle.template(template.read())
 
 @bottle.get("/cv")
@@ -47,4 +47,4 @@ application = bottle.default_app()
 application.install(bottlog.apache_logger("server.log"))
 
 if __name__ == "__main__":
-    bottle.run(app=application, port=1233, server="paste")
+    bottle.run(app=application, port=1233, host="0.0.0.0", server="paste")
