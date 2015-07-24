@@ -47,4 +47,4 @@ application = bottle.default_app()
 application.install(bottlog.apache_logger("server.log"))
 
 if __name__ == "__main__":
-    bottle.run(app=application, port=1233, host="0.0.0.0", server="paste")
+    bottle.run(app=application, port=1234, server="paste")
