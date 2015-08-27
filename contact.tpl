@@ -15,5 +15,5 @@
 
 <div class="row">
     %contact("E-Mail", "Send me a good ol' e-mail", "mailto:webdosusb@gmail.com")
-    %contact("Reddit", "Send me a PM on the front page of the internet", "https://reddit.com/u/gkbrk")
+    %contact("LinkedIn", "Send me a message or become a connection on LinkedIn.", "https://www.linkedin.com/pub/g%C3%B6kberk-yalt%C4%B1rakl%C4%B1/103/8b2/104")
 </div>
