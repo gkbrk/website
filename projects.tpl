@@ -21,3 +21,7 @@
     %project("SirLogsalot", "A simple IRC bot written in C.", "https://github.com/gkbrk/Sirlogsalot")
     %project("IrcLib", "An event-based C# library that makes coding IRC bots easy.", "https://github.com/gkbrk/IrcLib")
 </div>
+<div class="row">
+    %project("GKBRK WebRadio", "A web-based radio player in HTML5/CSS/JS.", "http://radio.gkbrk.com")
+    %project("AsteroidsC++", "An asteroid dodging game written in C++ and SDL.", "https://github.com/gkbrk/AsteroidsCpp")
+</div>
