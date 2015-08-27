@@ -35,6 +35,7 @@ def cv():
         return bottle.template(template.read())
 
 @bottle.error(404)
+@minify
 def notfound(error):
     with open("404.tpl") as template:
         return bottle.template(template.read())
