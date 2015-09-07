@@ -34,6 +34,12 @@ def cv():
     with open("contact.tpl") as template:
         return bottle.template(template.read())
 
+@bottle.get("/ffmpeg")
+@minify
+def ffmpeg():
+    with open("ffmpeg.tpl", encoding="utf-8") as template:
+        return bottle.template(template.read())
+
 @bottle.error(404)
 @minify
 def notfound(error):
