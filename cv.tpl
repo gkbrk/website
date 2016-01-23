@@ -60,7 +60,7 @@
 <div class="row">
     %block("Cambridge KET Exam", "[English] Pass with Merit", link_name="View certificate", include_button=False)
     %block("Cambridge PET Exam", "[English] Pass with Distinction", link_name="View certificate", include_button=False)
-    %block("IELTS Exam", "[English] 8.0 points", link_name="View certificate", url="static/images/certificates/ielts.png")
+    %block("IELTS Exam", "[English] 8.0 points", link_name="View certificate", url="static/images/certificates/ielts.jpg")
 </div>
 <div class="row">
     %block("TELC B2", "[German] B2 Certificate", link_name="View certificate", url="static/images/certificates/telc.png")
