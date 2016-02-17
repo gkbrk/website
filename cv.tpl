@@ -16,7 +16,7 @@
 <a href="static/cv.pdf" target="_blank"><p class="bg-success" style="font-size: 20px;"><span class="glyphicon glyphicon-file"></span> If you need my CV in a tabular format, you can click here.</p></a>
 
 <br/>
-<img class="pull-right" src="static/images/profil1.png" width="200" height="250"/>
+<img class="pull-right" src="static/images/profil.png" width="200" height="250"/>
 <h2>Personal Details</h2>
 <p><strong>Full Name:</strong> Gökberk Yaltıraklı</p>
 <p><strong>Date of Birth:</strong> 13th of January 1998</p>
